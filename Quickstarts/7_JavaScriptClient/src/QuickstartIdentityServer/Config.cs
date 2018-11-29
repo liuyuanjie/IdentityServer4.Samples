@@ -114,7 +114,7 @@ namespace QuickstartIdentityServer
                 {
                     SubjectId = "1",
                     Username = "alice",
-                    Password = "password",
+                    Password = "Pass123$",
 
                     Claims = new List<Claim>
                     {
@@ -126,7 +126,7 @@ namespace QuickstartIdentityServer
                 {
                     SubjectId = "2",
                     Username = "bob",
-                    Password = "password",
+                    Password = "Pass123$",
 
                     Claims = new List<Claim>
                     {

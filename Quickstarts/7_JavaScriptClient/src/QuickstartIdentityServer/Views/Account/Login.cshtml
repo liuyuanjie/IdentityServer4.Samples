@@ -48,9 +48,12 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <p>The default users are alice/bob, password: Pass123$</p>
+            </div>
         }
 
-        @if (Model.VisibleExternalProviders.Any())
+        @*@if (Model.VisibleExternalProviders.Any())
         {
             <div class="col-md-6 col-sm-6 external-providers">
                 <div class="panel panel-default">
@@ -74,7 +77,7 @@
                     </div>
                 </div>
             </div>
-        }
+        }*@
 
         @if (!Model.EnableLocalLogin && !Model.VisibleExternalProviders.Any())
         {

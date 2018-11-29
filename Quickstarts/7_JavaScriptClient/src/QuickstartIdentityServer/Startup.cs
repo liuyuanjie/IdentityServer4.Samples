@@ -38,7 +38,6 @@ namespace QuickstartIdentityServer
 
                     options.Authority = "https://demo.identityserver.io/";
                     options.ClientId = "implicit";
-
                     options.TokenValidationParameters = new TokenValidationParameters
                     {
                         NameClaimType = "name",

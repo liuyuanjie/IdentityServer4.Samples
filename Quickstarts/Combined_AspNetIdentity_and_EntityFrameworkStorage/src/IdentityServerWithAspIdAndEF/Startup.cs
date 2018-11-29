@@ -81,8 +81,8 @@ namespace IdentityServerWithAspIdAndEF
             services.AddAuthentication()
                 .AddGoogle(options =>
                 {
-                    options.ClientId = "708996912208-9m4dkjb5hscn7cjrn5u0r4tbgkbj1fko.apps.googleusercontent.com";
-                    options.ClientSecret = "wdfPY6t8H8cecgjlxud__4Gh";
+                    options.ClientId = "861118648929-19rcepiakp0i8102703g6qn2h34abbk1.apps.googleusercontent.com";
+                    options.ClientSecret = "GiLIpRBVO1QXAZt_Usvhj_dX";
                 })
                 .AddOpenIdConnect("oidc", "OpenID Connect", options =>
                 {
